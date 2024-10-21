@@ -1,0 +1,28 @@
+{
+  "name": "learn-playwright-component-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "yarn playwright test",
+    "test:ui": "yarn playwright test --ui",
+    "test:browser": "yarn playwright test --project=chromium",
+    "test:example": "yarn playwright test example",
+    "test:debug": "yarn playwright test --debug",
+    "test:codegen": "yarn playwright test codegen"
+  },
+  "dependencies": {
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.7",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vue-tsc": "^2.1.6"
+  }
+}
