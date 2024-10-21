@@ -148,6 +148,23 @@
   resolved "https://mirrors.huaweicloud.com/repository/npm/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.0.tgz#3188bcb273a414b0d215fd22a58540b989b9409a"
   integrity sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==
 
+"@playwright/experimental-ct-core@1.48.1":
+  version "1.48.1"
+  resolved "https://mirrors.huaweicloud.com/repository/npm/@playwright/experimental-ct-core/-/experimental-ct-core-1.48.1.tgz#907db74a5212d72a29fbece1918a5ea145b4b326"
+  integrity sha512-J0CaiyAZLFupdz0rd3k2MuB3UGdnpy/866fWqAO4R4WPFTHe27SB8wy5qhCaooq1i7yPDFNcfgpKfXQ4TRM3aA==
+  dependencies:
+    playwright "1.48.1"
+    playwright-core "1.48.1"
+    vite "^5.2.8"
+
+"@playwright/experimental-ct-vue@^1.48.1":
+  version "1.48.1"
+  resolved "https://registry.yarnpkg.com/@playwright/experimental-ct-vue/-/experimental-ct-vue-1.48.1.tgz#266ea45b25f05a51ecd5ccad42269d4950088bc3"
+  integrity sha512-UmjR8PZeSdepG62F3ET1y6DKYoPL+9mja4ZiTT2AkuyWYnELJO/Ceg/FI0KYt19Ko4dPQp8cSBYB2Z2HfAFY4A==
+  dependencies:
+    "@playwright/experimental-ct-core" "1.48.1"
+    "@vitejs/plugin-vue" "^4.2.1"
+
 "@playwright/test@^1.48.1":
   version "1.48.1"
   resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.48.1.tgz#343e710fcf2e559529e3ec8d7782e09f325b9396"
@@ -247,6 +264,11 @@
   dependencies:
     undici-types "~6.19.2"
 
+"@vitejs/plugin-vue@^4.2.1":
+  version "4.6.2"
+  resolved "https://mirrors.huaweicloud.com/repository/npm/@vitejs/plugin-vue/-/plugin-vue-4.6.2.tgz#057d2ded94c4e71b94e9814f92dcd9306317aa46"
+  integrity sha512-kqf7SGFoG+80aZG6Pf+gsZIVvGSCKE98JbiWqcCV9cThtg91Jav0yvYFC9Zb+jKetNGF6ZKeoaxgZfND21fWKw==
+
 "@vitejs/plugin-vue@^5.1.4":
   version "5.1.4"
   resolved "https://mirrors.huaweicloud.com/repository/npm/@vitejs/plugin-vue/-/plugin-vue-5.1.4.tgz#72b8b705cfce36b00b59af196195146e356500c4"
@@ -284,7 +306,7 @@
     estree-walker "^2.0.2"
     source-map-js "^1.2.0"
 
-"@vue/compiler-dom@3.5.12", "@vue/compiler-dom@^3.4.0":
+"@vue/compiler-dom@3.5.12", "@vue/compiler-dom@^3.4.0", "@vue/compiler-dom@^3.5.12":
   version "3.5.12"
   resolved "https://mirrors.huaweicloud.com/repository/npm/@vue/compiler-dom/-/compiler-dom-3.5.12.tgz#456d631d11102535b7ee6fd954cf2c93158d0354"
   integrity sha512-9G6PbJ03uwxLHKQ3P42cMTi85lDRvGLB2rSGOiQqtXELat6uI4n8cNz9yjfVHRPIu+MsK6TE418Giruvgptckg==
@@ -563,7 +585,7 @@ undici-types@~6.19.2:
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
   integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
 
-vite@^5.4.8:
+vite@^5.2.8, vite@^5.4.8:
   version "5.4.9"
   resolved "https://mirrors.huaweicloud.com/repository/npm/vite/-/vite-5.4.9.tgz#215c80cbebfd09ccbb9ceb8c0621391c9abdc19c"
   integrity sha512-20OVpJHh0PAM0oSOELa5GaZNWeDjcAvQjGXy2Uyr+Tp+/D2/Hdz6NLgpJLsarPTA2QJ6v8mX2P1ZfbsSKvdMkg==
